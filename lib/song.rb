@@ -9,8 +9,8 @@ class Song
     @@all << self #pushes new instances into a class variable called @@all upon initialization
   end
   
-  def self.all 
-    @@all
+  def self.all #is a class method (self)
+    @@all #returns an array of all song instances that have been created
   end
   
   def artist_name
