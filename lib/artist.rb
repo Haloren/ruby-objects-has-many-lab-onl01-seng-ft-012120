@@ -2,7 +2,7 @@ require 'pry'
 
 class Artist 
   
-  attr_accessor :name 
+  attr_accessor :name #has an attr_accessor for name
   @@songs = []
   
   def initialize(name) #is initialized with a name 
