@@ -2,7 +2,7 @@ require 'pry'
 
 class Song 
   attr_accessor :name, :artist     
-  @@all = [] 
+  @@all = [] #is a class variable set to an array
   
   def initialize(name) #is initialized with an argument of a name
     @name = name 
