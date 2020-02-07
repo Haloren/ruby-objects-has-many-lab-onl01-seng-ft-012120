@@ -18,7 +18,7 @@ class Artist
     @@songs << song 
   end 
   
-  def add_song_by_name(name)
+  def add_song_by_name(name) #takes in an argument of a song name
     add_song(Song.new(name))
   end 
   
