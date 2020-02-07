@@ -19,7 +19,7 @@ class Artist
   end 
   
   def add_song_by_name(name) #takes in an argument of a song name
-    add_song(Song.new(name))
+    add_song(Song.new(name)) #creates a new song with it and associates the song and artist
   end 
   
   def self.song_count 
