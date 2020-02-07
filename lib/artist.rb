@@ -23,7 +23,7 @@ class Artist
   end 
   
   def self.song_count #is a class method (self)
-    Song.all.length 
+    Song.all.length #returns the total number of songs associated to all existing artists
   end   
   
 end 
