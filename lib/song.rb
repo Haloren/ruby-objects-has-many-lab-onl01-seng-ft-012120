@@ -6,7 +6,7 @@ class Song
   
   def initialize(name) #is initialized with an argument of a name
     @name = name 
-    @@all << self 
+    @@all << self #pushes new instances into a class variable called @@all upon initialization
   end
   
   def self.all 
