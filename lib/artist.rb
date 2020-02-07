@@ -10,7 +10,7 @@ class Artist
   end
   
   def songs # go to song.rb 
-    Song.all 
+    Song.all # has many songs
   end 
    
   def add_song(song)
