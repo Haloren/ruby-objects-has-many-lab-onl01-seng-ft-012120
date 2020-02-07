@@ -17,7 +17,7 @@ class Song
     if self.artist == nil 
       return nil  
     end 
-    self.artist.name 
+    self.artist.name #knows the name of its artist
   end   
   
 end 
