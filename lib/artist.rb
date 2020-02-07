@@ -9,7 +9,7 @@ class Artist
     @name = name 
   end
   
-  def songs # go to song.rb 
+  def songs # make Song class in song.rb 
     Song.all # has many songs
   end 
    
