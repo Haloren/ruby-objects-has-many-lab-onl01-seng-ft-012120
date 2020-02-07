@@ -15,7 +15,7 @@ class Song
   
   def artist_name
     if self.artist == nil 
-      return nil  
+      return nil  #returns nil if the song does not have an artist
     end 
     self.artist.name #knows the name of its artist
   end   
