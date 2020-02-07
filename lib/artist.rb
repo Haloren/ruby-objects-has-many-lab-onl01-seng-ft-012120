@@ -22,7 +22,7 @@ class Artist
     add_song(Song.new(name)) #creates a new song with it and associates the song and artist
   end 
   
-  def self.song_count 
+  def self.song_count #is a class method (self)
     Song.all.length 
   end   
   
